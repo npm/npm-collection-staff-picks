@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A list of lesser-known packages curated by the staff at npm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo nope"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/npm/npm-collection-staff-picks"
