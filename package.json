@@ -1,9 +1,12 @@
 {
   "name": "npm-collection-staff-picks",
   "version": "1.0.0",
-  "description": "A list of lesser-known packages curated by the staff at npm",
-  "main": "index.js",
-  "scripts": {},
+  "description": "A list of obscure and beloved npm packages, selected by the staff at npm",
+  "main": "meta.json",
+  "scripts": {
+    "prepublish": "npm run meta",
+    "meta": "node lib/meta.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/npm/npm-collection-staff-picks"
@@ -40,6 +43,7 @@
     "superagent": "^0.20.0"
   },
   "devDependencies": {
+    "find-root": "^0.1.1",
     "pkgs": "^1.2.0"
   }
 }
