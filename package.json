@@ -1,6 +1,6 @@
 {
   "name": "npm-collection-staff-picks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A list of obscure and beloved npm packages, selected by the staff at npm",
   "main": "meta.json",
   "scripts": {
