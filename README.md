@@ -1,6 +1,6 @@
-# npm-collection-staff-picks
+# npm-collection-staff-picks 
 
-A list of lesser-known packages curated by the staff at npm
+A list of obscure and beloved npm packages, selected by the staff at npm
 
 ## Installation
 
@@ -10,12 +10,15 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install npm-collection-staff-picks --save
 ```
 
+
+
 ## Dependencies
 
 - [backoff](https://github.com/MathieuTurcotte/node-backoff): Fibonacci and exponential backoffs.
 - [bistre](https://github.com/hughsk/bistre): A command-line tool and module for printing colourful bole logs.
 - [blade](https://github.com/bminer/node-blade): Blade - HTML Template Compiler, inspired by Jade &amp; Haml
 - [bole](https://github.com/rvagg/bole): A tiny JSON logger
+- [cheerio](https://github.com/cheeriojs/cheerio): Tiny, fast, and elegant implementation of core jQuery designed specifically for the server
 - [dashdash](https://github.com/trentm/node-dashdash): A light, featureful and explicit option parsing library.
 - [inquirer](https://github.com/SBoudrias/Inquirer.js): A collection of common interactive command line user interfaces.
 - [json](https://github.com/trentm/json): a &#39;json&#39; command for massaging and processing JSON on the command line
@@ -30,10 +33,14 @@ npm install npm-collection-staff-picks --save
 - [stackup](https://github.com/npm/npm-collection-staff-picks): Long stack traces based on async listeners
 - [standard-error](https://github.com/moll/js-standard-error): Tiny library that simplifies subclassing and inheriting from Error while keeping the correct name and stack. Also supports constructing from an object of properties. Saves you from boilerplate.
 - [superagent](https://github.com/visionmedia/superagent): elegant &amp; feature rich browser / node HTTP with a fluent API
+- [zeroclipboard](https://github.com/zeroclipboard/zeroclipboard): The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.
 
 ## Dev Dependencies
 
-None
+- [backfill](https://github.com/zeke/backfill): Download package.json dependency data to meta.json
+- [find-root](https://github.com/agilemd/find-root): find the closest package.json
+- [pkgs](https://github.com/zeke/pkgs): Fetch npm registry metadata for a list of npm package names
+
 
 ## License
 
