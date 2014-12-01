@@ -5,7 +5,8 @@
   "main": "meta.json",
   "scripts": {
     "prepublish": "npm run meta",
-    "meta": "node lib/meta.js"
+    "meta": "node lib/meta.js",
+    "postinstall": "backfill"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,7 @@
     "zeroclipboard": "^2.1.6"
   },
   "devDependencies": {
+    "backfill": "^1.0.1",
     "find-root": "^0.1.1",
     "pkgs": "^1.2.0"
   }
