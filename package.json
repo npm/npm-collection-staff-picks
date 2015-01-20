@@ -35,6 +35,7 @@
     "must": "^0.12.0",
     "nearley": "^1.0.1",
     "nixt": "^0.4.1",
+    "npmrc": "^1.1.1",
     "p-promise": "^0.4.8",
     "package-json-to-readme": "^1.0.1",
     "replify": "^1.2.0",
